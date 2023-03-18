@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./Portafolio3.css">
+</head>
+<body>
+    <!-- Este es el menu de encabezado y barra de navegación de mi portafolio-->   
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Juan Luis</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="Seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="Seleccionar()">Sobre mí</a></li>
+                    <li><a href="#skills" onclick="Seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="Seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="Seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="Seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarmenu()">
+                <i class="fa-duotone fa-bars"></i>
+            </div>           
+        </header>
+    </div>
+    
+    <!-- Esta es la sección de inicio de mi portafolio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img id="Foto-perfil" src="./imagenes/Foto de perfil.jpeg" alt="Foto de perfil" width="">
+            </div>
+            <h1>Juan Luis Arregoitia</h1>
+            <h2>Ingeniero en desarrollo<br> de software- Experto JAVA-HTML<h2>
+            <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/juan-luis-arregoitia/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Sorckmx" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Esta es la sección sobre mí-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+            <p><span>Hola, soy Juan Luis Arregoitia</span> Soy una persona apasionada por la tecnología,que se mantiene a la vanguardía de todos los temas relacionados con tecnología e información, además de ser alguien proactivo y muy responsable con todos mis proyectos.</p>
+
+            <div class="fila">
+                <!--Se agregan los datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            02-10-2001
+                        </li>
+                        <li>
+                            <strong>Celular</strong>
+                            +52 3331508954
+                        </li>
+                        <li>
+                            <strong>Correo</strong>
+                            juanluis021001@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            02-10-2001
+                        </li>
+                        <li>
+                            <strong>Ubicación</strong>
+                            Jalisco, México
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Desarrollador FullStack
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Se agregan los intereses -->
+                <div class="col">
+                    <h3>Intereses personales</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMING</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-sharp fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <span>DESARROLLO</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LECTURA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>EJERCICIOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-cat"></i>
+                            <span>MASCOTAS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-school"></i>
+                            <span>ESTUDIOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-sharp fa-regular fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--ESTA ES LA SECCIÓN DE HABILIDADES-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+                <div class="fila">
+                    <!--HABILIDADES TÉCNICAS-->
+                    <div class="col">
+                        <h3>Habilidades técnicas</h3>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="barra-skill">
+                                <div class="progreso javascript">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso htmlcss">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>BOOTSTRAP</span>
+                            <div class="barra-skill">
+                                <div class="progreso bootstrap">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JAVA</span>
+                            <div class="barra-skill">
+                                <div class="progreso java">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>C#</span>
+                            <div class="barra-skill">
+                                <div class="progreso C">
+                                    <span>55%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>Habilidades profesionales</h3>
+                        <div class="skill">
+                            <span>Trabajo en equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso trabajo">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Proactividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso proactividad">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Proyect Management</span>
+                            <div class="barra-skill">
+                                <div class="progreso proyect">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso comunicacion">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso dedicacion">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--ESTA ES LA SECCIÓN DE CURRICULUM-->
+
+</body>
+</html>
