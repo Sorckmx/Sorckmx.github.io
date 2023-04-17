@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./Portafolio3.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6361/6361498.png" type="imagen/x-icon">
+</head>
+<body>
+    <!-- Este es el menu de encabezado y barra de navegación de mi portafolio-->   
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Juan Luis</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="Seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="Seleccionar()">Sobre mí</a></li>
+                    <li><a href="#skills" onclick="Seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="Seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="Seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="Seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-duotone fa-bars"></i>
+            </div>           
+        </header>
+    </div>
+    
+    <!-- Esta es la sección de inicio de mi portafolio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img id="Foto-perfil" src="./imagenes/Foto de perfil.jpeg" alt="Foto de perfil" width="">
+            </div>
+            <h1>Juan Luis Arregoitia</h1>
+            <h2>Ingeniero en desarrollo<br> de software- Experto JAVA-HTML<h2>
+            <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/juan-luis-arregoitia/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Sorckmx" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/juanluis_0210/?igshid=ZDdkNTZiNTM%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Arregoitia_Dev" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Esta es la sección sobre mí-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+            <p><span>Hola, soy Juan Luis Arregoitia</span> una persona apasionada por la tecnología, con gran gusto por el
+                diseño e implementación de sistemas utilizando lenguajes como Java,
+                JavaScript, HTML, CSS cuento con experiencia trabajando bajo metas o
+                sobre proyecto utilizando la metodología SCRUM a cualquier labor del
+                ámbito laboral, también utilizando herramientas como GitHub para el
+                control de versiones mostrando siempre alta responsabilidad y
+                dedicación al buen manejo del código.</p>
+
+            <div class="fila">
+                <!--Se agregan los datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            Dos de octubre
+                        </li>
+                        <li>
+                            <strong>Celular</strong>
+                            +52 3331508954
+                        </li>
+                        <li>
+                            <strong>Correo</strong>
+                            juanluis021001@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            <a href="https://www.linkedin.com/in/juan-luis-arregoitia/" target="_blank">Juan-Luis-Arregoitia </a>
+                        </li>
+                        <li>
+                            <strong>Ubicación</strong>
+                            Tlaquepaque, Jalisco, México
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Desarrollador FullStack
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Se agregan los intereses -->
+                <div class="col">
+                    <h3>Intereses personales</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMING</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-sharp fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <span>DESARROLLO</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LECTURA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>EJERCICIOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-cat"></i>
+                            <span>MASCOTAS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-school"></i>
+                            <span>ESTUDIOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-sharp fa-regular fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a id="downloadCV" href="./CV/CV Juan Luis Arregoitia Rascon.pdf" target="_blank">
+                <button>
+                Currículum Vitae <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                </button> 
+            </a>
+        </div>
+    </section>
+
+    <!--ESTA ES LA SECCIÓN DE HABILIDADES-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+                <div class="fila">
+                    <!--HABILIDADES TÉCNICAS-->
+                    <div class="col">
+                        <h3>Habilidades técnicas</h3>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>BOOTSTRAP</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JAVA</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>C#</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>SCRUM</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Git & GitHub</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>Habilidades profesionales</h3>
+                        <div class="skill">
+                            <span>Trabajo en equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Proactividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Liderazgo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--ESTA ES LA SECCIÓN DE CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Desarrollo de Software</h4>
+                        <span class="casa">Universidad IEU</span>
+                        <span class="fecha">2022-2025</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ex natus consectetur maiores voluptate quae tempora! Cumque excepturi temporibus et non id eaque eos natus. Perspiciatis eum delectus repellendus rem?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador Java Full Stack</h4>
+                        <span class="casa">Generation México</span>
+                        <span class="fecha">2023-2023</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ex natus consectetur maiores voluptate quae tempora! Cumque excepturi temporibus et non id eaque eos natus. Perspiciatis eum delectus repellendus rem?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Mecatrónica Automatización </h4>
+                        <span class="casa">Universidad UTS</span>
+                        <span class="fecha">2019-2021</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ex natus consectetur maiores voluptate quae tempora! Cumque excepturi temporibus et non id eaque eos natus. Perspiciatis eum delectus repellendus rem?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Desarrollador FrontEnd</h4>
+                        <span class="casa">Freelancer</span>
+                        <span class="fecha">2023-2023</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ex natus consectetur maiores voluptate quae tempora! Cumque excepturi temporibus et non id eaque eos natus. Perspiciatis eum delectus repellendus rem?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador FullStack</h4>
+                        <span class="casa">Generation México</span>
+                        <span class="fecha">2023-2023</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ex natus consectetur maiores voluptate quae tempora! Cumque excepturi temporibus et non id eaque eos natus. Perspiciatis eum delectus repellendus rem?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="item der">
+                        <h4>Desarrollo de Software</h4>
+                        <span class="casa">Universidad IEU</span>
+                        <span class="fecha">2021-2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ex natus consectetur maiores voluptate quae tempora! Cumque excepturi temporibus et non id eaque eos natus. Perspiciatis eum delectus repellendus rem?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ESTA ES LA SECCIÓN DEL PORTAFOLIO-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./imagenes/Carrusel Portafolio/Pagina.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Morderno</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imagenes/Carrusel Portafolio/Ideas.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Ideas de Diseño</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imagenes/Carrusel Portafolio/Creando pagina.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño en Proceso</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imagenes/Carrusel Portafolio/Blog.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Blogero</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imagenes/Carrusel Portafolio/Responsive.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Responsivo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/imagenes/Carrusel Portafolio/Lluvia de ideas.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pensando Diseño</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ESTA ES LA SECCIÓN DE CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <p id="alertValidacionesTexto"></p>
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORUMULARIO-->
+                <div class="col">
+                    <form action="https://formsubmit.co/6e1c47ab51c173ac022a386085b8ffc8" method="POST">
+                    <input id="name" type="text" name="name" placeholder="Tu nombre" required="">
+                    <input id="phone" type="number" name="phone" placeholder="Número telefónico" required="">
+                    <input id="Email" type="email" name="email" placeholder="Dirección de correo" required="">
+                    <input id="subject" type="text" name="subject" placeholder="Tema" required="">
+                    <textarea id="message" name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button id="sendMessage" type="submit">
+                        Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                    <input type="hidden" name="_next" value="https://sorckmx.github.io/#contacto">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+                </div>
+                
+                <!--MAPA-->
+                <div class="col">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59735.94098027297!2d-103.38562395274228!3d20.64937772077484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18cb52fd39b%3A0xd63d9302bf865750!2sGuadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1679315264148!5m2!1ses-419!2smx" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Ciudad de Guadalajara
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Comuniquese al: +52 33-31-50-89-54
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: juanluis021001@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ESTA ES LA SECCIÓN DE FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/juan-luis-arregoitia/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Sorckmx" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/juanluis_0210/?igshid=ZDdkNTZiNTM%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Arregoitia_Dev" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    </footer>
+
+    <script src="/Portafolio3.js"></script>
+
+</body>
+</html>
